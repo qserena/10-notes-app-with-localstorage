@@ -5,7 +5,7 @@ An app where you can write your own notes and format the texts with markup tags.
 
 In this version the notes are stored in localstorage which means they are only stored in your local browser. In this way nobody but you will see your notes! I have another version which stores to database, but that version is not deployed anywhere.
 
-Because of dependencies in the markup package `react-mde` I had to downgrade to React 17.0.2 (instead of 18).
+Because of dependencies in the markup package `react-mde` I had to downgrade to React 17.0.2 (instead of 18.2.0).
 <br/>
 <br/>
 <img src="my-notes.png" alt="Screenshot." width="300px"/>
