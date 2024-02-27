@@ -4,7 +4,7 @@
 A basic site presenting some facts about React. The page consists of two React components (Navbar and Main) which appearances could be toggled between Light and Dark mode, using the toggle switch at the upper right corner. Se pictures below.
 <br/>
 <br/>
-<img src="notes.png" alt="Screenshot." width="300px"/>
+<img src="my-notes.png" alt="Screenshot." width="300px"/>
 
 ## Technologies
 - HTML
