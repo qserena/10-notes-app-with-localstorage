@@ -1,7 +1,9 @@
 # Notes App
 
 ## Description
-A basic site presenting some facts about React. The page consists of two React components (Navbar and Main) which appearances could be toggled between Light and Dark mode, using the toggle switch at the upper right corner. Se pictures below.
+An app where you can write your own notes and format the text with markup tags. 
+
+Because of dependencies in the markup package 'react-mde' I had to downgrade to React 17.0.2 (instead of 18).
 <br/>
 <br/>
 <img src="my-notes.png" alt="Screenshot." width="300px"/>
