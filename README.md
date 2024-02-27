@@ -1,10 +1,14 @@
 # Notes App
 
 ## Description
-A basic site presenting some facts about React. The page consists of two React components (Navbar and Main) which appearances could be toggled between Light and Dark mode, using the toggle switch at the upper right corner. Se pictures below.
+An app where you can write your own notes and format the texts with markup tags. If you click the Preview button at the top you will see the markup appearance!
+
+In this version the notes are stored in localstorage which means they are only stored in your local browser. In this way nobody but you will see your notes! I have another version which stores to database, but that version is not deployed anywhere.
+
+Because of dependencies in the markup package `react-mde` I had to downgrade to React 17.0.2 (instead of 18).
 <br/>
 <br/>
-<img src="notes.png" alt="Screenshot." width="300px"/>
+<img src="my-notes.png" alt="Screenshot." width="300px"/>
 
 ## Technologies
 - HTML
