@@ -21,3 +21,10 @@ The app is deployed here:
 [https://markup-notes.netlify.app](https://markup-notes.netlify.app)
 
 Please feel free to play around with the app!
+
+## What I learned
+There was already a version of this project in course [Frontend Developer Career Path](https://scrimba.com/learn/frontend) and the exercise was to add the following new features:
+- Sync notes with localStorage
+- Add note summary titles
+- Move modified notes to the top of the list
+- Delete notes
