@@ -25,6 +25,6 @@ Please feel free to play around with the app!
 ## What I learned
 There was already a version of this project in course [Frontend Developer Career Path](https://scrimba.com/learn/frontend) and the exercise here was to add the following new features:
 - Sync notes with localStorage (write to localStorage in useEffect whenever notes state is changed, and read from localStorage using **lazy state initialization**).
-- Add note summary titles
+- Add note summary titles (take the first line of the note's body, using JavaScript `split('\n')`.
 - Move modified notes to the top of the list
 - Delete notes
