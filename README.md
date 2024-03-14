@@ -27,4 +27,4 @@ There was already a start version of this project in course [Frontend Developer 
 - Sync notes with localStorage (write to localStorage in useEffect whenever notes state is changed, and read from localStorage using **lazy state initialization**).
 - Add note summary titles (take the first line of the note's body, using JavaScript `split('\n')` method).
 - Move modified notes to the top of the list (put current note at the beginning of the array in the `updateNote()` function).
-- Delete notes
+- Delete notes (pass `(event) => props.deleteNote(event, note.id)` as the anonymous callback function as the onClick event pass parameters `event` and `noteId` from the delete button to the `deleteNote` function, and use the JavaScript `filter()` method to remove the note from the notes state).
